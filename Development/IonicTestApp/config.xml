@@ -85,4 +85,5 @@
     <plugin name="com-pppinki-plugins-echoswift" spec="/Users/pinki/Desktop/modusechopluginswift/ModusEchoSwift" />
     <engine name="ios" spec="^4.5.4" />
     <engine name="android" spec="^7.0.0" />
+    <engine name="browser" spec="~5.0.3" />
 </widget>
