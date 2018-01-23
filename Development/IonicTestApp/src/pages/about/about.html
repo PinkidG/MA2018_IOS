@@ -15,4 +15,7 @@
     <h4 text-center *ngIf="userArray">
         Hello <b>{{userArray.vorname}}</b> <b>{{userArray.nachname}}</b>, <br>wie geht es dir?
     </h4>
+    <p>
+        <button myitem (click)='openFilters();'>CLICK</button>
+    </p>
 </ion-content>

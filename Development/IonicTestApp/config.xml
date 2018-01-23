@@ -83,6 +83,10 @@
     <plugin name="cordova-plugin-ionic-webview" spec="^1.1.11" />
     <plugin name="cordova-plugin-add-swift-support" spec="^1.7.1" />
     <plugin name="com-pppinki-plugins-echoswift" spec="/Users/pinki/Desktop/modusechopluginswift/ModusEchoSwift" />
+    <plugin name="uk.co.workingedge.phonegap.plugin.launchnavigator" spec="^4.1.3">
+        <variable name="LOCATION_USAGE_DESCRIPTION" value="This app requires access to your location for navigation purposes" />
+    </plugin>
+    <allow-navigation href="http://141.72.149.199:8100" />
     <engine name="ios" spec="^4.5.4" />
     <engine name="android" spec="^7.0.0" />
     <engine name="browser" spec="~5.0.3" />
