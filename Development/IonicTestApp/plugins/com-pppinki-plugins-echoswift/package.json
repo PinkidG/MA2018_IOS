@@ -1,0 +1,58 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "/Users/pinki/Desktop/modusechopluginswift/ModusEchoSwift",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "/Users/pinki/Desktop/modusechopluginswift/ModusEchoSwift",
+        "spec": "/Users/pinki/Desktop/modusechopluginswift/ModusEchoSwift",
+        "type": "directory"
+      },
+      "/Users/pinki/git/MA2018_IOS/IonicTests/IonicTestApp"
+    ]
+  ],
+  "_from": "../../../../Desktop/modusechopluginswift/ModusEchoSwift",
+  "_id": "com-pppinki-plugins-echoswift@0.0.1",
+  "_inCache": true,
+  "_location": "/com-pppinki-plugins-echoswift",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "/Users/pinki/Desktop/modusechopluginswift/ModusEchoSwift",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "/Users/pinki/Desktop/modusechopluginswift/ModusEchoSwift",
+    "spec": "/Users/pinki/Desktop/modusechopluginswift/ModusEchoSwift",
+    "type": "directory"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "file:../../../../Desktop/modusechopluginswift/ModusEchoSwift",
+  "_shasum": "ae35fb0dbc966ca5db732c58cfec3a420f921e93",
+  "_shrinkwrap": null,
+  "_spec": "/Users/pinki/Desktop/modusechopluginswift/ModusEchoSwift",
+  "_where": "/Users/pinki/git/MA2018_IOS/IonicTests/IonicTestApp",
+  "author": "",
+  "cordova": {
+    "id": "com-pppinki-plugins-echoswift",
+    "platforms": [
+      "ios"
+    ]
+  },
+  "dependencies": {},
+  "description": "test plugin",
+  "devDependencies": {},
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-ios"
+  ],
+  "license": "ISC",
+  "name": "com-pppinki-plugins-echoswift",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "version": "0.0.1"
+}
