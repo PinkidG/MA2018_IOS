@@ -178,9 +178,10 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 
 var AboutPage = (function () {
-    function AboutPage(navCtrl, navParams, launchNavigator) {
+    function AboutPage(navCtrl, platform, navParams, launchNavigator) {
         // If we navigated to this page, we will have an item available as a nav param
         this.navCtrl = navCtrl;
+        this.platform = platform;
         this.navParams = navParams;
         this.launchNavigator = launchNavigator;
         var userObject = this.navParams.get('user');
@@ -193,6 +194,15 @@ var AboutPage = (function () {
         }
         this.start = "";
         this.destination = "Westminster, London, UK";
+        this.platform.ready().then(function () {
+            console.log("Ready");
+            var modus = window["modusechoswift"];
+            modus.echo('Plugin Ready!', function (msg) {
+                console.log(msg);
+            }, function (err) {
+                console.log(err);
+            });
+        });
     }
     AboutPage.prototype.openFilters = function () {
         var options = {
@@ -205,7 +215,7 @@ var AboutPage = (function () {
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
             selector: 'page-about',template:/*ion-inline-start:"/Users/pinki/git/MA2018_IOS/Development/IonicTestApp/src/pages/about/about.html"*/'<ion-header>\n    <ion-navbar>\n        <button ion-button menuToggle>\n      <ion-icon name="menu"></ion-icon>\n    </button>\n        <ion-title>About</ion-title>\n    </ion-navbar>\n</ion-header>\n\n<ion-content>\n    <h3 text-center *ngIf="userArray">\n        {{userArray.vorname}}\n        <ion-icon [name]="userArray.icon"></ion-icon>\n    </h3>\n    <h4 text-center *ngIf="userArray">\n        Hello <b>{{userArray.vorname}}</b> <b>{{userArray.nachname}}</b>, <br>wie geht es dir?\n    </h4>\n    <p>\n        <button myitem (click)=\'openFilters();\'>CLICK</button>\n    </p>\n</ion-content>'/*ion-inline-end:"/Users/pinki/git/MA2018_IOS/Development/IonicTestApp/src/pages/about/about.html"*/
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_2_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["g" /* NavParams */], __WEBPACK_IMPORTED_MODULE_1__ionic_native_launch_navigator__["a" /* LaunchNavigator */]])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_2_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["h" /* Platform */], __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["g" /* NavParams */], __WEBPACK_IMPORTED_MODULE_1__ionic_native_launch_navigator__["a" /* LaunchNavigator */]])
     ], AboutPage);
     return AboutPage;
 }());

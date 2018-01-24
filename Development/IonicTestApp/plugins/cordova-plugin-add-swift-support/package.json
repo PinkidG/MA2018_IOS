@@ -10,7 +10,7 @@
         "spec": "latest",
         "type": "tag"
       },
-      "/Users/pinki/git/MA2018_IOS/IonicTests/IonicTestApp"
+      "/Users/pinki/git/MA2018_IOS/Development/IonicTestApp"
     ]
   ],
   "_from": "cordova-plugin-add-swift-support@latest",
@@ -45,7 +45,7 @@
   "_shasum": "91a3483d3c9092cf238aee69e526a15465e0cab8",
   "_shrinkwrap": null,
   "_spec": "cordova-plugin-add-swift-support",
-  "_where": "/Users/pinki/git/MA2018_IOS/IonicTests/IonicTestApp",
+  "_where": "/Users/pinki/git/MA2018_IOS/Development/IonicTestApp",
   "author": {
     "name": "Alexis Kofman",
     "email": "alexis.kofman@gmail.com",

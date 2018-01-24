@@ -10,9 +10,6 @@
     "com-pppinki-plugins-echoswift": {
       "PACKAGE_NAME": "io.ionic.starter"
     },
-    "cordova-plugin-add-swift-support": {
-      "PACKAGE_NAME": "io.ionic.starter"
-    },
     "cordova-plugin-device": {
       "PACKAGE_NAME": "io.ionic.starter"
     },
@@ -29,6 +26,15 @@
       "PACKAGE_NAME": "io.ionic.starter"
     },
     "uk.co.workingedge.phonegap.plugin.launchnavigator": {
+      "PACKAGE_NAME": "io.ionic.starter"
+    },
+    "cordova-plugin-add-swift-support": {
+      "PACKAGE_NAME": "io.ionic.starter"
+    },
+    "com-moduscreate-plugins-echoswift": {
+      "PACKAGE_NAME": "io.ionic.starter"
+    },
+    "cordova-plugin-geolocation": {
       "PACKAGE_NAME": "io.ionic.starter"
     }
   },

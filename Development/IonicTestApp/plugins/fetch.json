@@ -39,14 +39,6 @@
     "is_top_level": true,
     "variables": {}
   },
-  "cordova-plugin-add-swift-support": {
-    "source": {
-      "type": "registry",
-      "id": "cordova-plugin-add-swift-support"
-    },
-    "is_top_level": true,
-    "variables": {}
-  },
   "com-pppinki-plugins-echoswift": {
     "source": {
       "type": "local",
@@ -77,6 +69,30 @@
       "id": "cordova-plugin-dialogs@*"
     },
     "is_top_level": false,
+    "variables": {}
+  },
+  "cordova-plugin-add-swift-support": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-add-swift-support"
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "com-moduscreate-plugins-echoswift": {
+    "source": {
+      "type": "local",
+      "path": "/Users/pinki/git/MA2018_IOS/Development/IonicTestApp/node_modules/com-moduscreate-plugins-echoswift"
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "cordova-plugin-geolocation": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-geolocation@4.0.1"
+    },
+    "is_top_level": true,
     "variables": {}
   }
 }
