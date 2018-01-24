@@ -92,3 +92,6 @@ Für ein vollständiges Beispiel verweise ich an dieser Stelle nochmals auf dies
 Auch in der [offiziellen Cordova Dokumentation](https://cordova.apache.org/docs/de/latest/guide/platforms/ios/plugin.html#ein-ios-cordova-plugin-schreiben) findet sich eine Anleitung zum schreiben eines iOS Plugins (allerdings nur in Objective-C). Eine weitere ähnliche Anleitung mit paralleler Funktion unter Android findet man ebenfalls bei [moduscreate](https://moduscreate.com/blog/plugin-authoring-cordova-6-ios-android/).
 
 (In meiner [IonicTestApp](https://github.com/PinkidG/MA2018_IOS/tree/master/Development/IonicTestApp) ist ein eigens erstelltes Plugin installiert und wird auch verwendet, die Ausführung ist etwas unterschiedlich mit Ionic im Vergleich zu reinem Cordova)
+
+
+<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
