@@ -36,7 +36,6 @@ In diesem Beispiel ist eine TableView dargestellt. Man kann Einträge hinzufüge
 - Apple Guides und Examples : [Link](https://developer.apple.com/library/content/navigation/)
 - Developer Portal von Apple: [Link](https://developer.apple.com)
 
---
 
 
 # Zusatz: iOS Plugin für Cordova 
@@ -51,24 +50,25 @@ Für die Entwicklung eines nativen iOS Plugins verwendet Cordova noch Objective-
                --path modusechopluginswift`
 3.	Funktionen im Ordner `/www/ModusEchoSwift.js` deklarieren: 
 
-    ~~~
-exports.echo = function(arg0, success, error) {
-  exec(success, error, 'ModusEchoSwift', 'echo', [arg0]);
-};
-    ~~~
+   	~~~js
+	exports.echo = function(arg0, success, error) {
+  		exec(success, error, 'ModusEchoSwift', 'echo', [arg0]);
+	};
+   	~~~
+    
     In diesem Beispiel wird die Funktion "echo" verwendet.
     
 4.	iOS Platform und Quelldatei in `plugin.xml` bekannt machen:
     
     ~~~xml
     platform name="ios">
-  	<config-file target="config.xml" parent="/*">
-    <feature name="ModusEchoSwift">
-      <param name="ios-package" value="ModusEchoSwift" />
-    </feature>
-  </config-file>
-  <source-file src="src/ios/ModusEchoSwift.swift" />
-</platform>
+  		<config-file target="config.xml" parent="/*">
+    		<feature name="ModusEchoSwift">
+      			<param name="ios-package" value="ModusEchoSwift" />
+    		</feature>
+  		</config-file>
+  	<source-file src="src/ios/ModusEchoSwift.swift" />
+	</platform>
     ~~~
     
 5. Swift Datei in `src/ios/ModusEchoSwift.swift` erstellen und mit einer oder mehreren Funktionen befüllen. (Siehe [hier](https://moduscreate.com/blog/writing-a-cordova-plugin-in-swift-3-for-ios/) für ein Beispiel)
