@@ -61,13 +61,13 @@ Für die Entwicklung eines nativen iOS Plugins verwendet Cordova noch Objective-
 4.	iOS Platform und Quelldatei in `plugin.xml` bekannt machen:
     
     ~~~xml
-    platform name="ios">
+    <platform name="ios">
   		<config-file target="config.xml" parent="/*">
     		<feature name="ModusEchoSwift">
       			<param name="ios-package" value="ModusEchoSwift" />
     		</feature>
   		</config-file>
-  	<source-file src="src/ios/ModusEchoSwift.swift" />
+  		<source-file src="src/ios/ModusEchoSwift.swift" />
 	</platform>
     ~~~
     
