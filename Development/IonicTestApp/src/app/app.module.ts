@@ -12,6 +12,10 @@ import { ListPage } from '../pages/list/list';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
+import { Instagram } from '@ionic-native/instagram';
+import { Camera } from '@ionic-native/camera';
+import { OneSignal } from '@ionic-native/onesignal';
+
 
 @NgModule({
   declarations: [
@@ -37,6 +41,9 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     StatusBar,
     SplashScreen,
     LaunchNavigator,
+    Instagram,
+    OneSignal,
+    Camera,
     {provide: ErrorHandler, useClass: IonicErrorHandler}
   ]
 })

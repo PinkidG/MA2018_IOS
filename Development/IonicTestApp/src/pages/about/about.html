@@ -18,4 +18,8 @@
     <p>
         <button myitem (click)='openFilters();'>CLICK</button>
     </p>
+    <img [src]="currentImage" *ngIf="currentImage">
+
+    <button ion-button full (click)="loadImage()">Load Image</button>
+    <button ion-button full (click)="shareImage()" [disabled]="!currentImage">Instagram share</button>
 </ion-content>

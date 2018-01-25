@@ -8,6 +8,7 @@ import { AboutPage } from '../pages/about/about';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
+import { OneSignal } from '@ionic-native/onesignal';
 
 export class User {
   vorname: string;
@@ -53,6 +54,20 @@ export class MyApp {
 
       this.statusBar.styleDefault();
       this.splashScreen.hide();
+
+      // OneSignal Code start:
+    // Enable to debug issues:
+    // window["plugins"].OneSignal.setLogLevel({logLevel: 4, visualLevel: 4});
+
+    var notificationOpenedCallback = function(jsonData) {
+      console.log('notificationOpenedCallback: ' + JSON.stringify(jsonData));
+    };
+
+    window["plugins"].OneSignal
+      .startInit("86c9df58-638d-470e-948c-4d1ca5a256fe", "YOUR_GOOGLE_PROJECT_NUMBER_IF_ANDROID")
+      .handleNotificationOpened(notificationOpenedCallback)
+      .endInit();
+
     });
   }
 
