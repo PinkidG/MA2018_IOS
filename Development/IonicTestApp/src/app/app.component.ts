@@ -64,7 +64,7 @@ export class MyApp {
     };
 
     window["plugins"].OneSignal
-      .startInit("86c9df58-638d-470e-948c-4d1ca5a256fe", "YOUR_GOOGLE_PROJECT_NUMBER_IF_ANDROID")
+      .startInit("86c9df58-638d-470e-948c-4d1ca5a256fe", "1098273731594")
       .handleNotificationOpened(notificationOpenedCallback)
       .endInit();
 

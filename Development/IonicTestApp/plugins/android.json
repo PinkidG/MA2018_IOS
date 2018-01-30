@@ -8,51 +8,51 @@
   },
   "installed_plugins": {
     "com-moduscreate-plugins-echoswift": {
-      "PACKAGE_NAME": "io.ionic.starter"
-    },
-    "cordova-plugin-add-swift-support": {
-      "PACKAGE_NAME": "io.ionic.starter"
-    },
-    "cordova-plugin-device": {
-      "PACKAGE_NAME": "io.ionic.starter"
-    },
-    "cordova-plugin-geolocation": {
-      "PACKAGE_NAME": "io.ionic.starter"
-    },
-    "cordova-plugin-ionic-webview": {
-      "PACKAGE_NAME": "io.ionic.starter"
-    },
-    "cordova-plugin-splashscreen": {
-      "PACKAGE_NAME": "io.ionic.starter"
-    },
-    "cordova-plugin-whitelist": {
-      "PACKAGE_NAME": "io.ionic.starter"
-    },
-    "ionic-plugin-keyboard": {
-      "PACKAGE_NAME": "io.ionic.starter"
-    },
-    "uk.co.workingedge.phonegap.plugin.launchnavigator": {
-      "PACKAGE_NAME": "io.ionic.starter"
+      "PACKAGE_NAME": "com.pppinki.ios.ionictestapp"
     },
     "cordova-instagram-plugin": {
-      "PACKAGE_NAME": "io.ionic.starter"
+      "PACKAGE_NAME": "com.pppinki.ios.ionictestapp"
+    },
+    "cordova-plugin-add-swift-support": {
+      "PACKAGE_NAME": "com.pppinki.ios.ionictestapp"
     },
     "cordova-plugin-camera": {
-      "PACKAGE_NAME": "io.ionic.starter"
+      "PACKAGE_NAME": "com.pppinki.ios.ionictestapp"
+    },
+    "cordova-plugin-device": {
+      "PACKAGE_NAME": "com.pppinki.ios.ionictestapp"
+    },
+    "cordova-plugin-geolocation": {
+      "PACKAGE_NAME": "com.pppinki.ios.ionictestapp"
+    },
+    "cordova-plugin-ionic-webview": {
+      "PACKAGE_NAME": "com.pppinki.ios.ionictestapp"
+    },
+    "cordova-plugin-splashscreen": {
+      "PACKAGE_NAME": "com.pppinki.ios.ionictestapp"
+    },
+    "cordova-plugin-whitelist": {
+      "PACKAGE_NAME": "com.pppinki.ios.ionictestapp"
+    },
+    "ionic-plugin-keyboard": {
+      "PACKAGE_NAME": "com.pppinki.ios.ionictestapp"
     },
     "onesignal-cordova-plugin": {
-      "PACKAGE_NAME": "io.ionic.starter"
+      "PACKAGE_NAME": "com.pppinki.ios.ionictestapp"
+    },
+    "uk.co.workingedge.phonegap.plugin.launchnavigator": {
+      "PACKAGE_NAME": "com.pppinki.ios.ionictestapp"
     }
   },
   "dependent_plugins": {
+    "cordova-universal-clipboard": {
+      "PACKAGE_NAME": "com.pppinki.ios.ionictestapp"
+    },
     "cordova-plugin-actionsheet": {
-      "PACKAGE_NAME": "io.ionic.starter"
+      "PACKAGE_NAME": "com.pppinki.ios.ionictestapp"
     },
     "cordova-plugin-dialogs": {
-      "PACKAGE_NAME": "io.ionic.starter"
-    },
-    "cordova-universal-clipboard": {
-      "PACKAGE_NAME": "io.ionic.starter"
+      "PACKAGE_NAME": "com.pppinki.ios.ionictestapp"
     }
   }
 }
